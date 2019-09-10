@@ -10,7 +10,7 @@ namespace Mail.Console
             var mailService = new Mafly.Mail.Mail();
 
             //群发单显参数：多接收者邮箱、内容
-            mailService.Send("kanwolian@gmail.com,546601728@qq.com", "测试【群发单显】邮件发送！", true);
+            mailService.Send("kanwolian@gmail.com,591925478@qq.com", "测试【群发单显】邮件发送！", true);
 
             //参数：接收者邮箱、内容
             mailService.Send("kanwolian@gmail.com,546601728@qq.com", "测试邮件发送！");
