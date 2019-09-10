@@ -14,7 +14,7 @@ namespace Mail.Console
 
             //参数：接收者邮箱、内容
             mailService.Send("kanwolian@gmail.com,591925478@qq.com", "测试邮件发送！");
-
+            mailService.Send("591925478@qq.com", "hehua");
             ////参数：接收者邮箱、接收者名字、内容
             //mailService.Send("nuget@mayongfa.cn", "mafly", "测试邮件发送！");
 
